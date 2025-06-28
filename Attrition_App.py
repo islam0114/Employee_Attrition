@@ -3,9 +3,9 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-Data = pickle.load(open('model.sav', 'rb'))
+Data = pickle.load(open('DEPLOYMENT/xgboost.sav', 'rb'))
 
-st.set_page_config(page_title="Employee Attrition", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="Employee Attrition", page_icon="👤", layout="wide")
 st.title("Employee Attrition Prediction App")
 st.markdown('Predict whether an employee is attrition based on various attributes.')
 
