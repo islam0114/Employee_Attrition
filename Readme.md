@@ -36,7 +36,7 @@ Attrition: Binary classification — Stayed or Left
 
 ----
 
-## 4. Data Preprocessing
+## 3. Data Preprocessing
 
 - Missing Values: No missing values detected
 
@@ -46,7 +46,7 @@ Attrition: Binary classification — Stayed or Left
 
 ----
 
-## 5. Model Development
+## 4. Model Development
 Multiple machine learning models were tested. XGBoost was selected as the final model due to its:
 
 - High accuracy
@@ -61,7 +61,7 @@ The final XGBoost model was saved and prepared for deployment.
 
 ----
 
-## 6. Model Deployment
+## 5. Model Deployment
 Input Features:
 
 - Job Level
@@ -90,7 +90,7 @@ Input Features:
 
 ----
 
-## 7. Challenges Faced
+## 6. Challenges Faced
 - Data Collection: Time-consuming and required extensive search
 
 - Outliers: Retained Monthly Income outliers for data distribution integrity
@@ -101,7 +101,7 @@ Input Features:
 
 -----
 
-## 8. Key Insights
+## 7. Key Insights
 - Top Predictors of Attrition: Overtime, Job Satisfaction, Age, and Years at Company
 
 - Explainable ML: Feature importance helped HR understand what drives attrition
@@ -112,7 +112,7 @@ Input Features:
 
 ----
 
-## 9. Integration Recommendations
+## 8. Integration Recommendations
 - HR Dashboards: Embed predictions into HR dashboards for continuous monitoring
 
 - Clinical Decision Support: Show risk scores + suggested actions
@@ -127,7 +127,7 @@ Input Features:
 
 ----
 
-## 10. Tools & Technologies
+## 9. Tools & Technologies
 
 | Category         | Tools                         |
 | ---------------- | ----------------------------- |
@@ -138,7 +138,7 @@ Input Features:
 
 ----
 
-## 11. Project Structure
+## 10. Project Structure
 Health-Care-Project/
 
 │
