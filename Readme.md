@@ -159,10 +159,6 @@ Health-Care-Project/
 
 │
 
-├── Dashboard/                     # Power BI dashboards and reports
-
-│
-
 ├── REPORTS/                       # Final reports and documentation
 
 │
